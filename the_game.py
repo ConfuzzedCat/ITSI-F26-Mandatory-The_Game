@@ -102,6 +102,17 @@ game.answer(ch_num, answer8(game.data(ch_num)))
 # Question 8 end
 
 
+# Question 9 start
+ch_num = 9
+print(f"Answering {ch_num}")
+def answer9(s):
+    s.replace("be","python")
+    return s
+
+game.answer(ch_num, answer9(game.data(ch_num)))
+# Question 9 end
+
+
 input("")
 print("Scores... ")
 game.score()
